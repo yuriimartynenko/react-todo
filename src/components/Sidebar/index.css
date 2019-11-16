@@ -1,0 +1,11 @@
+   .dairy__app {
+       background: #272b3c;
+       color: white;
+       min-height: 100%;
+       height: 100vh;
+       padding-left: 10px;
+   }
+
+   .comment__no_sense {
+       color: #737375;
+   }
