@@ -14,7 +14,7 @@ class TodoItems extends Component {
                             onClick={() => this.props.toggleActive(item.id)}
                         >
                             <span className='item-title my-auto font-weight-bold'>
-                                {item.title}
+                                {item.title.substring(0, 30) + '...'}
                                 <Badge color="info" className=' ml-2 font-weight-normal' pill>{item.comments.length}</Badge>
                             </span>
                             <Button outline color="danger" onClick={() => this.props.deleteItem(item.id)}>Delete</Button>
